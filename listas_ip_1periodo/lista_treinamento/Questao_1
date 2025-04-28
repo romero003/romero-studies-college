@@ -1,0 +1,5 @@
+Quantidade_Ferro = input()
+Resto = int(Quantidade_Ferro)%3
+Quantidade_Vila = (int(Quantidade_Ferro) - Resto)//3
+print (Quantidade_Vila)
+print (Resto)
